@@ -53,10 +53,13 @@ for tc in range(1,T+1):
         print('-----------------act-------------------')
         for a in act:
             print(a)
+        print('***************상태정보***************')
+        for s in stat:
+            print(s)
         # 상태정보 업데이트
         for y in range(n + k):
             for x in range(m + k):
-                if cell[y][x]>0 and cell[y][x]!=-4:
+                if cell[y][x]>0:
                     stat[y][x]+=1
                 if stat[y][x]<0:
                     stat[y][x]-=1
