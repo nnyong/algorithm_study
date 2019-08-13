@@ -1,3 +1,4 @@
+# 치킨배달
 from itertools import combinations
 import sys
 sys.stdin=open("치킨배달.txt",'r')

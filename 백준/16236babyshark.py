@@ -1,3 +1,4 @@
+# 아기상어
 import sys
 sys.stdin=open('아기상어','r')
 

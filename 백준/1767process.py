@@ -1,3 +1,4 @@
+# 프로세스연결하기
 import sys
 sys.stdin=open('프로세서','r')
 

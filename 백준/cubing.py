@@ -1,3 +1,4 @@
+# 큐빙
 import sys
 sys.stdin=open('큐빙','r')
 
